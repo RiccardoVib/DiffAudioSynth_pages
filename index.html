@@ -215,6 +215,9 @@
             <a href="https://magenta.withgoogle.com/datasets/maestro" target="_blank" style="color: #2c7a7b; font-weight: 600;">
               MAESTRO Dataset
             </a>
+            <a href="https://zenodo.org/records/13962272" target="_blank" style="color: #2c7a7b; font-weight: 600;">
+              GAPS Dataset
+            </a>
           </p>
         </div>
       </div>
@@ -328,7 +331,6 @@
                 <tr>
                   <th>Number of Channels (C)</th>
                   <th>Number of Parameters</th>
-                  <th>RTF (GPU-CPU)</th>
                   <th>MSE <span class="metric-arrow">↓</span></th>
                   <th>LSD <span class="metric-arrow">↓</span></th>
                   <th>FAD <span class="metric-arrow">↓</span></th>
@@ -337,25 +339,22 @@
               <tbody>
                 <tr>
                   <td> 32 </td>
-                  <td> ... </td>
-                  <td> ... </td>
+                  <td> 3,091,621 </td>
                   <td> × 10<sup>-4</sup></td>
                   <td> </td>
                   <td> </td>
                 </tr>
                 <tr>
                   <td> 64 </td>
-                  <td> ... </td>
-                  <td> ... </td>
+                  <td> 11,499,589 </td>
                   <td>1. × 10<sup>-3</sup></td>
                   <td> </td>
                   <td> </td>
                 </tr>
                   <tr>
                   <td> 128 </td>
-                  <td> ... </td>
-                  <td> ... </td>
-                  <td>1. × 10<sup>-3</sup></td>
+                  <td> 44,363,653 </td>
+                  <td>1.5 × 10<sup>-3</sup></td>
                   <td> </td>
                   <td> </td>
                 </tr>
@@ -415,6 +414,7 @@
               <thead>
                 <tr>
                   <th> Architecture </th>
+                  <th>Number of Parameters</th>
                   <th>MSE <span class="metric-arrow">↓</span></th>
                   <th>LSD <span class="metric-arrow">↓</span></th>
                   <th>FAD <span class="metric-arrow">↓</span></th>
@@ -423,18 +423,21 @@
               <tbody>
                 <tr>
                   <td> Diffusion U-Net </td>
+                  <td> 44,363,653 </td>
                   <td> × 10<sup>-4</sup></td>
                   <td> </td>
                   <td> </td>
                 </tr>
                 <tr>
                   <td> Diffusion Transformer </td>
+                  <td> 40,074,400 </td>
                   <td>1. × 10<sup>-3</sup></td>
                   <td> </td>
                   <td> </td>
                 </tr>
                   <tr>
                   <td> DDSP </td>
+                  <td> 35,347,817 </td>
                   <td>1. × 10<sup>-3</sup></td>
                   <td> </td>
                   <td> </td>
