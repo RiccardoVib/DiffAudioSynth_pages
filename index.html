@@ -230,7 +230,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
-          <h2 class="title is-3 section-title">Performance Metrics</h2>
+          <h2 class="title is-3 section-title">MAESTRO Dataset: Performance Metrics</h2>
           <p class="subtitle is-6" style="margin-bottom: 2rem;">
             L refers to the frame size produced by the model at each iteration
           </p>
@@ -322,7 +322,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
-          <h2 class="title is-3 section-title">Model sizes vs performances</h2>
+          <h2 class="title is-3 section-title">MAESTRO Dataset: Model sizes vs performances</h2>
           <p class="subtitle is-6" style="margin-bottom: 2rem;">
             The results refer to models with 512 as the frame size.
           </p>
@@ -402,7 +402,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
-          <h2 class="title is-3 section-title">Architectures Comparison</h2>
+          <h2 class="title is-3 section-title">MAESTRO Dataset: Architectures Comparison</h2>
           <p class="subtitle is-6" style="margin-bottom: 2rem;">
             The results refer to models with 512 as the frame size.
           </p>
@@ -485,7 +485,7 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column">
-          <h2 class="title is-3 section-title">Ablations Studies</h2>
+          <h2 class="title is-3 section-title">MAESTRO Dataset: Ablations Studies</h2>
           <p class="subtitle is-6" style="margin-bottom: 2rem;">
             The results refer to models with 512 as the frame size.
           </p>
@@ -536,6 +536,58 @@
                   <td> 0.94 </td>
                   <td> 0.80 </td>
                   <td> 0.94 </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Performance Metrics Table -->
+  <section class="section content-section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3 section-title">GAPS Dataset: Performance Metrics</h2>
+          <p class="subtitle is-6" style="margin-bottom: 2rem;">
+            The results refer to models with 512 as the frame size.
+          </p>
+
+          <div class="results-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>MSE <span class="metric-arrow">↓</span></th>
+                  <th>LSD <span class="metric-arrow">↓</span></th>
+                  <th>FAD <span class="metric-arrow">↓</span></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.13 × 10<sup>-2</sup></td>
+                  <td>0.29</td>
+                  <td>0.63</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="results-table" style="margin-top: 2rem;">
+            <table>
+              <thead>
+                <tr>
+                  <th>F1-Score <span class="metric-arrow">↑</span></th>
+                  <th>Pitch acc. <span class="metric-arrow">↑</span></th>
+                  <th>Polyphony <span class="metric-arrow">↑</span></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>0.61</td>
+                  <td>0.80</td>
+                  <td>0.74</td>
                 </tr>
               </tbody>
             </table>
